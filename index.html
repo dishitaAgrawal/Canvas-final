@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <!-- <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script> -->
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBD7vfywUheLTSoFJrXGs2i6drw763zQhs",
+          authDomain: "canvas-8e5f5.firebaseapp.com",
+          databaseURL: "https://canvas-8e5f5.firebaseio.com",
+          projectId: "canvas-8e5f5",
+          storageBucket: "canvas-8e5f5.appspot.com",
+          messagingSenderId: "486602165268",
+          appId: "1:486602165268:web:5c5a0b47eeb1a434aeeb01"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+
+</head>
+
+<body>
+    <div id ="canvascontainer"></div>
+
+    <p>
+        <button id = "saveButton">save</button>
+    </p>
+
+    <p>
+        <!-- <ol id="drawinglist">
+
+        </ol> -->
+        <button id="clearbutton">Clear Drawing</button>
+    </p>
+</body>
+
+</html>
